@@ -6,31 +6,28 @@ import Navigation from './Navigation.js';
 
 import HeroBlade from './HeroBlade.js';
 
-import MediaComponent from './Media.js';
+import MediaComponent from './MediaComponent.js';
 import Image from 'react-bootstrap/Image'
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class App extends Component {
 
 
   render () {
 
-    return (
-      <div>
+    return (     
 
         <div className="App">
           {/* End of line comments  Shift  Alt F for indent */}
-
-          {/* <Header />
           <Content />
-
-          <Image src="holder.js/100px250" fluid /> */}
+          <Header />
+                 
 
         </div>
-
-      </div>
     );
   }
 }
+
+
 
 
 class Header extends Component {
@@ -50,8 +47,6 @@ class Content extends Component {
     return (
       <div>
         <HeroBlade />
-       
-        <MediaComponent />
       </div>
     );
   }

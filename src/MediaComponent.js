@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Media from 'react-bootstrap/Media'
-
+import holder from 'react-holder'
 class MediaComponent extends Component {
     render () {
       return (
